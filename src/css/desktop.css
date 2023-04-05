@@ -1,0 +1,68 @@
+/* Preview article starts to look bad at 858px */
+
+@media screen and (min-width: 50em) {
+  article[class="article-component"] {
+    width: min(80%, 730px); 
+  }
+
+  div[class="article__image-component"] {
+    flex-basis: 40%; 
+  }
+
+  div[class="article__content"] {
+    flex-basis: 60%; 
+  }
+
+  div[class="article__image-component"] {
+    overflow: hidden; 
+    border-top-left-radius: var(--radius-5); 
+    border-top-right-radius: unset; 
+    border-bottom-left-radius: var(--radius-5);
+  }
+
+  div[class="article__image-component"] img {
+    aspect-ratio: unset; 
+    height: 100%; 
+    object-fit: unset; 
+    object-position:unset; 
+    transition: all 0.4s ease; 
+  }
+
+  div[class="share"] {
+    position: relative; 
+  }
+
+  div[class="article__content--footer"] {
+    position: static; 
+  }
+
+  div[class~="share-option"] {
+    left:50%; 
+    border-radius: var(--radius-5); 
+    box-shadow: 0px 10px 10px rgba(201, 213, 225, 0.503415); 
+    top: unset; 
+    right: unset; 
+    bottom: calc(100% + 28px); 
+    transform: translate(-50%, 0%) scale(0); 
+    padding-inline: var(--gap-40); 
+
+    /* I needed this width because this would make the items in the ul behave funny so the div element needed to be given a set width. */
+    width: 248px; 
+  }
+
+  div[class~="share-option"]::after {
+    content: ""; 
+    position: absolute; 
+    width: 19px; 
+    height: 19px; 
+    background-color: var(--very-dark-grayish-blue); 
+    transform: translate(-50%, -60%) rotate(45deg); 
+    left: 50%; 
+    top: 100%; 
+  }
+
+  div[class~=share-option][class~="active"] {
+    transform: translate(-50%, 0%) scale(1); 
+  }
+
+}
