@@ -2,18 +2,17 @@
   "name": "article-preview-component-master",
   "version": "1.0.0",
   "description": "Shift the overall look and feel by adding wonderful touches to home furniture",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
-  "source": "index.html",
+  "default": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TraversetheDOM/article-preview-component.git"
   },
-  "author": "Ikuomola Stephen",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TraversetheDOM/article-preview-component/issues"
