@@ -18,5 +18,3 @@
 # Prevent node_modules, dist and .pacel-cache folders from being tracked by git. 
 .parcel-cache
 node_modules
-node_modules
-dist
