@@ -5,7 +5,7 @@
 
   A Full Responsive Article Preview Component for Michelle Appleton<br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://michelle-appleton-preview-article-component.netlify.app/"><strong>➥ Live Demo</strong></a>
+  <a href="https://michelle-appleton-preview-article.netlify.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
