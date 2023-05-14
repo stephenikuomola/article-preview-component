@@ -15,7 +15,4 @@
 .DS_Store
 
 # Prevent node_modules and .pacel-cache folders from being traached by git. 
-dist
-.parcel-cache
-node_modules
-dist
+
