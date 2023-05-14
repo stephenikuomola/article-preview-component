@@ -1,2 +1,0 @@
-new class{#t=document.querySelector("div[class='share']");constructor(){this.#t.addEventListener("click",this.#e)}#e(t){const e=t.target.closest(".button-share");if(!e)return;const n="true"===e.getAttribute("aria-expanded")||!1;e.setAttribute("aria-expanded",`${!n}`),n?e.nextElementSibling.classList.remove("active"):e.nextElementSibling.classList.add("active")}};
-//# sourceMappingURL=index.57b83a63.js.map
