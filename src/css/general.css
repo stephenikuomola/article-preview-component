@@ -137,6 +137,5 @@ img, picture { max-width: 100%; display: block; }
 
 button { appearance: none; border: none; }
 
-/* This might cause as issue or maybe some negatuve report from Frontend Mentor which I might ignore. */
-ul[role="list"] { list-style-type: none; }
+
 

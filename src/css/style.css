@@ -134,6 +134,7 @@ ul[class="options-list"] {
   display: flex; 
   gap: var(--gap-15); 
   align-items: center; 
+  list-style-type: none; 
 }
 
 
