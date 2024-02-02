@@ -18,20 +18,20 @@
 
 ## Prerequisites
 
-Before you begin ensure you have met the following requirements. 
+Before you begin, please make sure you have met the following requirements. 
 
 - [Git](https://git-scm.com/) must be installed in your operating system.
 - [Node](https://nodejs.org/en) must be installed in your operating system
 
 ## Run Locally
 
-To run the article preview component locally run this command on your git bash/terminal. 
+To run the article preview component locally, run this command on your git bash/terminal. 
 
-**Linux and MacOs:**
+**Linux and macOS:**
 
 ```bash
 
-sudo git clone https://github.com/TraversetheDOM/article-preview-component.git
+sudo git clone https://github.com/stephenikuomola/article-preview-component.git
 
 npm install 
 
@@ -41,7 +41,7 @@ npm run start
 **Windows:**
 
 ```bash
-git clone https://github.com/TraversetheDOM/article-preview-component.git
+git clone https://github.com/stephenikuomola/article-preview-component.git
 
 npm install 
 
@@ -50,8 +50,8 @@ npm run start
 
 ## Contact
 
-If you want to contact me or comment on my solution you can reach out to me on [Twitter](https://twitter.com/_TraverseDOM), [LinkedIn](https://www.linkedin.com/in/ikuomola-stephen/) or [FrontendMentor](https://www.frontendmentor.io/profile/TraversetheDOM). 
+If you want to contact me or comment on my solution, you can reach out to me on [Twitter](https://twitter.com/stephenikuomola), [LinkedIn](https://www.linkedin.com/in/ikuomola-stephen/) or [FrontendMentor](https://www.frontendmentor.io/profile/stephenikuomola). 
 
 ## License
 
-This project is **free to use** and does not contain any license.
+This project is **free to use** and contains no license.
