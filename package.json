@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TraversetheDOM/article-preview-component.git"
+    "url": "git+https://github.com/stephenikuomola/article-preview-component.git"
   },
-  "author": "",
+  "author": "Stephen Damilola Chidiebere Ikuomola",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TraversetheDOM/article-preview-component/issues"
+    "url": "https://github.com/stephenikuomola/article-preview-component/issues"
   },
-  "homepage": "https://github.com/TraversetheDOM/article-preview-component#readme",
+  "homepage": "https://github.com/stephenikuomola/article-preview-component#readme",
   "devDependencies": {
     "parcel": "^2.8.3"
   }
